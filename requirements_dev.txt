@@ -1,0 +1,11 @@
+matplotlib
+jupyter
+notebook
+Sphinx
+flake8
+numpy
+pandas
+scikit-learn
+tensorboard
+pyro-ppl
+termcolor
