@@ -1,0 +1,34 @@
+version: '3.4'
+services:
+  basebox: &basebox
+    build:
+      dockerfile: ./docker/Dockerfile
+      context: .
+      args:
+        UID: ${UID:-1000}
+    image: "cmayrhofer/basebox"
+    container_name: "stat-rethink-container"
+    volumes:
+      - ./:/app
+
+  # "devbox" enables a development environment
+  devbox: &devbox
+    <<: *basebox
+    build:
+      dockerfile: ./docker/Dockerfile.dev
+      context: .
+    image: "cmayrhofer/devbox"
+    container_name: "stat-rethink-devbox-container"
+    volumes:
+      - ./:/work
+
+  # "devboxjupyter" runs a jupyter server
+  devboxjupyter:
+    <<: *devbox
+    container_name: "stat-rethink-devboxjupyter-container"
+    ports:
+      - "8080:8080"
+    entrypoint: sh -c
+    command: ["jupyter-notebook --ip=0.0.0.0 --port=8080"]
+    volumes:
+      - ./:/work
