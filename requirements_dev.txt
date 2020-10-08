@@ -8,4 +8,5 @@ pandas
 scikit-learn
 tensorboard
 pyro-ppl
+seaborn
 termcolor
