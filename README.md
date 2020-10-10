@@ -17,6 +17,7 @@ explicitly.
 The solutions for each chapter are provided in one jupyter notebook which can be found here:
 
 * [Solutions Chapter 2](<notebooks/Practice Chapter 2.ipynb>)
+* [Solutions Chapter 3](<notebooks/Practice Chapter 3.ipynb>)
 * ...
 
 
