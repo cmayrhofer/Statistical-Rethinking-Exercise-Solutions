@@ -11,7 +11,21 @@ Contrary to the book title, we solved the problems by means of [Pyro](http://pyr
 ourselves familiarised with Pyro was also the main intention behind working out all these examples
 explicitly.
 
+
 ## Solutions
+
+The solutions for each chapter are provided in one jupyter notebook which can be found here:
+
 * [Solutions Chapter 2](<notebooks/Practice Chapter 2.ipynb>)
 * ...
 
+
+## Getting started
+
+To have a working environment to run the code provided in this repository, please use our docker file
+and docker compose file. For instance, to obtain a jupyter server including a working python kernel,
+please run
+
+    $docker-compose up devboxjupyter
+
+and follow the link provided in the shell.
