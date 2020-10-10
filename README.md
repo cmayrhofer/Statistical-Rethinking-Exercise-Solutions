@@ -11,6 +11,6 @@ ourselves familiarised with Pyro was also the main intention behind working out 
 explicitly.
 
 ## Solutions
-* [Solutions Chapter 2](notebooks/Practice Chapter 2.ipynb)
+* [Solutions Chapter 2](./notebooks/Practice Chapter 2.ipynb)
 * ...
 
