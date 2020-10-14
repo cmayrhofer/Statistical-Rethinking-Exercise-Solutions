@@ -18,6 +18,7 @@ The solutions for each chapter are provided in one jupyter notebook which can be
 
 * [Solutions Chapter 2](<notebooks/Practice Chapter 2.ipynb>)
 * [Solutions Chapter 3](<notebooks/Practice Chapter 3.ipynb>)
+* [Solutions Chapter 4](<notebooks/Practice Chapter 4.ipynb>)
 * ...
 
 
